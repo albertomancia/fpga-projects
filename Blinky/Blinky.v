@@ -25,12 +25,12 @@ module Blinky(
     output led0_r, led0_g, led0_b
     );
 
-reg [24:0] count = 0;
+reg [28:0] count = 0;
 
  
-assign led0_g = count[23];
-assign led0_b = count[22];
-assign led0_r = count[21];
+assign led0_g = count[28];
+assign led0_b = count[27];
+assign led0_r = count[26];
  
 always @ (posedge(clk)) count <= count + 1;
 
