@@ -28,9 +28,9 @@ module Blinky(
 reg [24:0] count = 0;
 
  
-assign led0_r = count[24];
 assign led0_g = count[23];
 assign led0_b = count[22];
+assign led0_r = count[21];
  
 always @ (posedge(clk)) count <= count + 1;
 
