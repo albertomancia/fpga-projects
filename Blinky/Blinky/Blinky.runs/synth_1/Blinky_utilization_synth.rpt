@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Jan 23 09:39:00 2024
+| Date         : Tue Jan 23 10:13:30 2024
 | Host         : DESKTOP-OR0JTFF running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Blinky_utilization_synth.rpt -pb Blinky_utilization_synth.pb
 | Design       : Blinky
@@ -34,8 +34,8 @@ Table of Contents
 | Slice LUTs*             |    1 |     0 |          0 |     14400 | <0.01 |
 |   LUT as Logic          |    1 |     0 |          0 |     14400 | <0.01 |
 |   LUT as Memory         |    0 |     0 |          0 |      6000 |  0.00 |
-| Slice Registers         |   25 |     0 |          0 |     28800 |  0.09 |
-|   Register as Flip Flop |   25 |     0 |          0 |     28800 |  0.09 |
+| Slice Registers         |   29 |     0 |          0 |     28800 |  0.10 |
+|   Register as Flip Flop |   29 |     0 |          0 |     28800 |  0.10 |
 |   Register as Latch     |    0 |     0 |          0 |     28800 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |      8800 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |      4400 |  0.00 |
@@ -59,7 +59,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 25    |          Yes |       Reset |            - |
+| 29    |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -148,8 +148,8 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |   25 |        Flop & Latch |
-| CARRY4   |    7 |          CarryLogic |
+| FDRE     |   29 |        Flop & Latch |
+| CARRY4   |    8 |          CarryLogic |
 | OBUF     |    3 |                  IO |
 | LUT1     |    1 |                 LUT |
 | IBUF     |    1 |                  IO |

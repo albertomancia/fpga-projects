@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1706031423">
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1706033495">
   <File Type="ROUTE-PWR" Name="Blinky_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Blinky.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Blinky_power_summary_routed.pb"/>

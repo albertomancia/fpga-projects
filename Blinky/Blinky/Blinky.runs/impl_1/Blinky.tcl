@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/Bart/Documents/Xilinx/Blinky/Blinky/Blinky.runs/impl_1/Blinky.tcl"
+  variable script "C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Blinky/Blinky.runs/impl_1/Blinky.tcl"
   variable category "vivado_impl"
 }
 
@@ -133,15 +133,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/Bart/Documents/Xilinx/Blinky/Blinky/Blinky.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Bart/Documents/Xilinx/Blinky/Blinky/Blinky.xpr [current_project]
-  set_property ip_output_repo C:/Users/Bart/Documents/Xilinx/Blinky/Blinky/Blinky.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Blinky/Blinky.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Blinky/Blinky.xpr [current_project]
+  set_property ip_output_repo C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Blinky/Blinky.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/Bart/Documents/Xilinx/Blinky/Blinky/Blinky.runs/synth_1/Blinky.dcp
+  add_files -quiet C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Blinky/Blinky.runs/synth_1/Blinky.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/Bart/Documents/Xilinx/Blinky/Cora-Z7-07S-Master.xdc
+  read_xdc C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Cora-Z7-07S-Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

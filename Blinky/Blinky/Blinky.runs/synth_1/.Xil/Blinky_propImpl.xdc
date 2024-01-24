@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/Bart/Documents/Xilinx/Blinky/Cora-Z7-07S-Master.xdc rfile:../../../../Cora-Z7-07S-Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Bart/Documents/GitHub/fpga-projects/Blinky/Cora-Z7-07S-Master.xdc rfile:../../../../Cora-Z7-07S-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN H16   IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L13P_T2_MRCC_35 Sch=sysclk
 set_property src_info {type:XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]
